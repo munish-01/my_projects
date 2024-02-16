@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.container-header{
+    width: 100%;
+    /* border: 3px solid black; */
+
+}
+
+/* TOP HEADER CODE */
+
+.header{
+    height: 70px;
+    display: flex;
+    width: 97%;
+    margin: auto;
+}
+
+.header-start{
+    display: flex;
+    width: 25%;
+    height: 70px;
+}
+
+.nav-icon-1{
+    padding-left: 35px;
+    margin-top: 13px;
+}
+
+.nav-icon-2 img{
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+.nav-icon-3{
+    display: grid;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    align-content: center;
+}
+
+.nav-icon-3 img{
+    margin-top: 5px;
+}
+
+.header-end{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 75%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar input{
+    height: 32px;
+    width: 400px;
+    margin-left: 5px;
+    padding: 12px 31px;
+
+}
+
+.search-bar button{
+    height: 32px;
+    width: 75px;
+    margin-left: -5px;
+    font-weight: bolder;
+}
+
+.account a{
+    text-decoration: none;
+    margin: 5px;
+    color: #3366CC;;
+}
+
+.account span{
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+/* TOP HEADER CODE END*/
+
+/* MAIN CONTENT  */
+
+.peafowl-heading{
+    width: 953px;
+    /* margin: auto; */
+    display: flex;
+    margin-left: 348px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    color: #3366CC;
+}
+
+.peafowl-heading h3{
+    font-size: 14px;
+}
+
+.container-main{
+    width: 93%;
+    display: flex;
+    margin: auto;
+}
+
+.left-container{
+    width: 24%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    /* display: grid; */
+
+}
+
+.upper-content{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.upper-content button{
+    /* height: 30px; */
+    margin-top: 4px;
+    margin-left: 20px;
+    padding: 1px 7px;
+    border: none;
+}
+
+.left-container .link{
+    position: sticky;
+    top: 24px;
+    /* background-color: goldenrod; */
+    display: grid;
+    margin: 10px;
+    line-height: 35px;
+    margin-top: -5px;
+}
+
+.left-container .link .link-items{
+    color: #3366CC;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.right-container{
+    width: 76%;
+    /* border: 2px solid green; */
+}
+
+.right-container .heading-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 2px;
+    border-bottom: 1px solid gray;
+}
+
+.right-container .heading-links a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+.hatnote{
+    padding-left: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.hatnote a{
+    text-decoration: none;
+    color: #3366cc;
+
+}
+
+.write-container{
+    /* display: flex; */
+    position: relative;
+}
+
+.right-container .center-content{
+    /* width: 75%; */
+    /* border: 1px solid red; */
+    margin: 7px 0 14px;
+    /* float: left; */
+}
+
+.center-content .content-headings{
+    /* display: inline-block; */
+    font-size: 21px;
+    margin: 21px 0px 5.25px;
+    /* border-bottom: 1px solid gray; */
+    /* width: 100%; */
+}
+
+.center-content .content-headings h2{
+    margin-bottom: 10px;
+}
+
+.right-container .center-content p{
+    margin: 7px 0 14px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.right-container .right-content{
+    width: 25%;
+    background-color: #F8F9FA;
+	border: 1px solid #A2A9B1;
+	margin: 7px 0px 7px 14px;
+	padding: 2.8px;
+    text-align: center;
+    float: right;
+    clear: right;
+    /* position: absolute; */
+    right: 0;
+}
+
+.right-container .right-content .card-1, .card-2, .card-3{
+
+	font-size: 12.32px;
+	line-height: 21px;
+}
+
+.right-container .right-content .card-3 table{
+    width: 100%;
+    text-align: left;
+}
+
+.card-d-1{
+    background-color: #F8F9FA;
+	border: 1px solid #A2A9B1;
+	margin: 15px 20px 7px 0px;
+    /* margin-top: 5px; */
+	padding: 2.8px;
+    text-align: center;
+    width: 25%;
+    float: left;
+    clear: left;
+    
+}
+
+.card-mh-1, .card-mh-2, .card-mh-3, .card-mh-4{
+    background-color: #F8F9FA;
+	border: 1px solid #A2A9B1;
+	margin: 15px 0px 7px 18px;
+    /* margin-top: 5px; */
+	padding: 2.8px;
+    text-align: center;
+    width: 24%;
+    float: right;
+    clear: right;
+
+}
+
+
+
