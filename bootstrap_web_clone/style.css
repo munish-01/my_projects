@@ -1,0 +1,11 @@
+.meraCard span{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.meraCard li:hover{
+    background-color: #212529;
+    color: white;
+}
