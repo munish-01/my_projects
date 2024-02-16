@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone FrontEnd</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 1120px;
+            margin: auto;
+            /* height: 500px; */
+            /* border: 1px solid black; */
+            margin-top: 90px;
+        }
+
+        .yellow-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 550px;
+            border-bottom: 1px solid black;
+            width: 100%;
+            background-color: #FFC017;
+            z-index: -1;
+        }
+    </style>
+    <!-- Including Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- CAROUSEL CSS -->
+    <link rel="stylesheet" href="css/carousel.css">
+
+    <!-- Trending Article CSS -->
+    <link rel="stylesheet" href="css/trending-articles.css">
+
+    <!-- Articles Main Content CSS -->
+    <link rel="stylesheet" href="css/articles-main-content.css">
+</head>
+
+<body>
+
+    <!-- YELLOW BOX CONTAINER OF CAROUSEL STARTS -->
+    <div class="yellow-container"></div>
+    <!-- YELLOW BOX CONTAINER OF CAROUSEL ENDS -->
+
+
+    <!-- NAVBAR STARTS -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-logo">
+            <div class="nav-image"></div>
+        </div>
+        <div class="nav-links">
+            <a class="nav-item" href="#">Our Story</a>
+            <a class="nav-item" href="#">Membership</a>
+            <a class="nav-item" href="#">Write</a>
+            <a class="nav-item" href="#">Sign in</a>
+            <button class="get-started">
+                <span>Get Started</span>
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+            </button>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CONTAINER STARTS  -------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container">
+
+
+
+
+
+
+
+        <!-- CAROUSEL STARTS -->
+        <div class="carousel">
+            <h1 class="carousel-heading">Stay curious.</h1>
+            <div class="carousel-text">Discover stories, thinking, and expertise from writers on any topic.</div>
+            <button class="carousel-button">Start Reading</button>
+        </div>
+        <!-- CAROUSEL ENDS -->
+
+
+
+        <div class="trending-articles">
+            <div class="trending-heading">
+                <img
+                    src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                <div class="trending-heading-text">Trending on Medium</div>
+            </div>
+            <div class="articles-list">
+                <div class="article article-1">
+                    <div class="article-no">01</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:40:40/1*CJe3891yB1A1mzMdqemkdg.jpeg">
+                            <div class="article-author-detail">
+                            <span class="author">
+                                Thi-Lam-Thuy LE
+                                <!-- <div class="about-author">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, officiis.
+                                </div> -->
+                            </span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-2">
+                    <div class="article-no">02</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fill:40:40/1*XVtdl45m8YaYrPI4buJ5yQ.png">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-3">
+                    <div class="article-no">03</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-4">
+                    <div class="article-no">04</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-5">
+                    <div class="article-no">05</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article article-6">
+                    <div class="article-no">06</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img
+                                src="https://media.istockphoto.com/id/1459674281/vector/round-uptrend-arrow-icon-vector.jpg?b=1&s=170x170&k=20&c=ViCSKPNtyVaLhNa0t5yW67nKBor0SmiDOk8IQJdP_6Y=">
+                            <div class="article-author-detail"><span>Thi-Lam-Thuy LE</span> in <span>Towards Data Science</span></div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's What happened? Adding more text here
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <!-- CONTAINER STARTS  -------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <!-- MAIN CONTENT OF PAGE STARTS -->
+    <div class="content-container">
+        <div class="main-container">
+            
+            <div class="left-content">
+                <div class="content card-1">
+                    
+                    <div class="content-l-side">
+                        <div class="c1">
+                            <img src="https://miro.medium.com/v2/resize:fill:20:20/1*RsfhVK8tQW9TPv-Q_2YtRw.png" alt="">
+                            <div>Dan Canon - I Taught the Law</div>
+                        </div>
+                        <div class="c2">
+                            <h2>The Trump Exception to the Constitution</h2>
+                        </div>
+                        <div class="c3">
+                            <h3>The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.</h3>
+                        </div>
+                        <div class="c4">
+                            <div class="right">
+                                <span>Jan 12 . 10 min read . <strong>Law</strong></span>
+                            </div>
+                            <!-- <div class="left">
+                                <img src="img/bookmark.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="content-r-side">
+                        <img src="https://miro.medium.com/v2/resize:fill:200:134/0*IehneBNDnM0BoKZf.jpeg" alt="img 1">
+                    </div>
+                    
+                </div>
+                <div class="content card-2">
+                    
+                    <div class="content-l-side">
+                        <div class="c1">
+                            <img src="https://miro.medium.com/v2/resize:fill:20:20/1*RsfhVK8tQW9TPv-Q_2YtRw.png" alt="">
+                            <h4>Polly Mackintosh</h4>
+                        </div>
+                        <div class="c2">
+                            <h2>‘Medicine’: Is sober dancing the new ecstasy?</h2>
+                        </div>
+                        <div class="c3">
+                            <h3>I’m on a boat in Amsterdam. It’s 8pm on a Friday and the walls are...</h3>
+                        </div>
+                        <div class="c4">
+                            <div class="right">
+                                <span>Jan 7 . 6 min read . <strong>Dance</strong></span>
+                            </div>
+                            <!-- <div class="left">
+                                <img src="img/bookmark.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="content-r-side">
+                        <img src="https://miro.medium.com/v2/resize:fill:200:134/1*3IcTfY6F7SFA2ys0aufuEg.jpeg" alt="img 1">
+                    </div>
+
+                </div>
+                <div class="content card-3">
+                    
+                    <div class="content-l-side">
+                        <div class="c1">
+                            <img src="https://miro.medium.com/v2/resize:fill:20:20/1*RsfhVK8tQW9TPv-Q_2YtRw.png" alt="">
+                            <h4>Dan Canon - I Taught the Law</h4>
+                        </div>
+                        <div class="c2">
+                            <h2>The Trump Exception to the Constitution</h2>
+                        </div>
+                        <div class="c3">
+                            <h3>The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.</h3>
+                        </div>
+                        <div class="c4">
+                            <div class="right">
+                                <span>Jan 12 . 10 min read . <strong>Law</strong></span>
+                            </div>
+                            <!-- <div class="left">
+                                <img src="img/bookmark.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="content-r-side">
+                        <img src="https://miro.medium.com/v2/resize:fill:200:134/0*IehneBNDnM0BoKZf.jpeg" alt="img 1">
+                    </div>
+                
+                </div>
+                <div class="content card-4">
+                    
+                    <div class="content-l-side">
+                        <div class="c1">
+                            <img src="https://miro.medium.com/v2/resize:fill:20:20/1*RsfhVK8tQW9TPv-Q_2YtRw.png" alt="">
+                            <h4>Dan Canon - I Taught the Law</h4>
+                        </div>
+                        <div class="c2">
+                            <h2>The Trump Exception to the Constitution</h2>
+                        </div>
+                        <div class="c3">
+                            <h3>The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.</h3>
+                        </div>
+                        <div class="c4">
+                            <div class="right">
+                                <span>Jan 12 . 10 min read . <strong>Law</strong></span>
+                            </div>
+                            <!-- <div class="left">
+                                <img src="img/bookmark.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="content-r-side">
+                        <img src="https://miro.medium.com/v2/resize:fill:200:134/0*IehneBNDnM0BoKZf.jpeg" alt="img 1">
+                    </div>
+
+                </div>
+                <div class="content card-5">
+                    
+                    <div class="content-l-side">
+                        <div class="c1">
+                            <img src="https://miro.medium.com/v2/resize:fill:20:20/1*RsfhVK8tQW9TPv-Q_2YtRw.png" alt="">
+                            <h4>Dan Canon - I Taught the Law</h4>
+                        </div>
+                        <div class="c2">
+                            <h2>The Trump Exception to the Constitution</h2>
+                        </div>
+                        <div class="c3">
+                            <h3>The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.</h3>
+                        </div>
+                        <div class="c4">
+                            <div class="right">
+                                <span>Jan 12 . 10 min read . <strong>Law</strong></span>
+                            </div>
+                            <!-- <div class="left">
+                                <img src="img/bookmark.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="content-r-side">
+                        <img src="https://miro.medium.com/v2/resize:fill:200:134/0*IehneBNDnM0BoKZf.jpeg" alt="img 1">
+                    </div>
+
+                </div>
+                <div class="content card-6">
+                    
+                    <div class="content-l-side">
+                        <div class="c1">
+                            <img src="https://miro.medium.com/v2/resize:fill:20:20/1*RsfhVK8tQW9TPv-Q_2YtRw.png" alt="">
+                            <h4>Dan Canon - I Taught the Law</h4>
+                        </div>
+                        <div class="c2">
+                            <h2>The Trump Exception to the Constitution</h2>
+                        </div>
+                        <div class="c3">
+                            <h3>The First Amendment Isn’t What’s Enabling Trump. It’s the Courts.</h3>
+                        </div>
+                        <div class="c4">
+                            <div class="right">
+                                <span>Jan 12 . 10 min read . <strong>Law</strong></span>
+                            </div>
+                            <!-- <div class="left">
+                                <img src="img/bookmark.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="content-r-side">
+                        <img src="https://miro.medium.com/v2/resize:fill:200:134/0*IehneBNDnM0BoKZf.jpeg" alt="img 1">
+                    </div>
+
+                </div>
+
+            </div>
+    
+            <div class="right-content">
+                <div class="btn-heading">Discover more of what matters to you</div>
+                
+                <div class="button-container">
+                    <div class="btn">                    
+                        <div class="btns">Programming</div>
+                        <div class="btns">Data Science</div>
+                        <div class="btns">Technology</div>
+                    </div>
+    
+                    <div class="btn">                    
+                        <div class="btns">Self Improvement</div>
+                        <div class="btns">Writing</div>
+                        <div class="btns">Relationships</div>
+                    </div>
+    
+                    <div class="btn">                    
+                        <div class="btns">Machine Learning</div>
+                        <div class="btns">Productivity</div>
+                        <div class="btns">Politics</div>
+                    </div>
+                </div>
+
+                <div class="heading-foter">
+                    See more topics
+                </div>
+
+                <hr style="border-top: 1px solid rgba(204, 204, 204, 0.435); margin-top: 25px;">
+
+            </div>
+        </div>
+
+    </div>
+    <!-- MAIN CONTENT OF PAGE ENDS HERE -->
+
+
+
+
+
+
+
+</body>
+
+</html>
