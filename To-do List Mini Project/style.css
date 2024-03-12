@@ -1,0 +1,47 @@
+* {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 4px;
+    color: white;
+    background-color: tomato;
+    border: 0;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 24px;
+}
+
+.inp {
+    padding: 4px;
+    width: 70%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* display: flex; */
+
+}
+
+
+.upBtn,
+.downBtn,
+.deleteBtn {
+    background-color: royalblue;
+    color: white;
+    width: 10%;
+}
+
+.taskItem {
+    margin: 10px auto;
+    list-style: none;
+}
+
+li:first-child .upBtn,
+li:last-child .downBtn {
+    display: none;
+}
